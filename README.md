@@ -30,6 +30,15 @@ Use `--help` for input and output options. The BHI pressure weights live in
 `src/transform/bhi/pressure_indices.toml`, alongside the shared calculation.
 The historical `*_lags` filenames currently build current-quarter panels.
 
+### Screenshots:
+Data Engineering Tab:
+<img width="1589" height="829" alt="image" src="https://github.com/user-attachments/assets/8ac4cef3-d724-4277-bb3a-65a7b01a0baa" />
+
+Forecasting Tab:
+<img width="1570" height="676" alt="image" src="https://github.com/user-attachments/assets/53f8a5ea-813c-453d-ad1f-2cd4618004ba" />
+
+
+
 ## BHI reference-data flow
 
 The current flow is:
