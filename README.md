@@ -75,9 +75,18 @@ profiles, current ED trends and forecasts. See the
 
 ![Data engineering dashboard](https://github.com/user-attachments/assets/8ac4cef3-d724-4277-bb3a-65a7b01a0baa)
 
+**Socio-economic**
+
+<img width="1578" height="853" alt="image" src="https://github.com/user-attachments/assets/395b169c-d6b5-4e48-af2d-7a6dd56925c4" />
+
+**Current Trends**
+
+<img width="1578" height="507" alt="image" src="https://github.com/user-attachments/assets/8e23a77e-77e8-4ff5-95ea-db4e657534b4" />
+
 **Forecasting**
 
 ![Forecasting dashboard](https://github.com/user-attachments/assets/53f8a5ea-813c-453d-ad1f-2cd4618004ba)
+
 
 ## How the data flows
 
