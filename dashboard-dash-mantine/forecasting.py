@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from trends import ROOT, load_trends
+from trends import ROOT, load_trends, resolve_data_root
 
 
 def forecast_measures(prediction, configuration):
@@ -16,7 +16,7 @@ def forecast_measures(prediction, configuration):
 
 
 def load_forecasts(root=ROOT):
-    root = Path(root)
+    root = resolve_data_root(root)
     historical, boundaries, districts = load_trends(root)
     frames = {}
     for level, folder in [('lhd', 'LHDs'), ('hospital', 'Hospitals')]:

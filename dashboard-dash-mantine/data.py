@@ -11,8 +11,14 @@ _LOAD_LOCK = Lock()
 FILES = ('nsw_lhd_boundaries.geojson', 'nsw_sa1_boundaries.geojson', 'sa1_to_lhd.csv')
 
 
-def load_data(root=REFERENCE_ROOT):
+def resolve_reference_root(root):
     root = Path(root)
+    current = root.parent / '.pipeline/current/data/reference'
+    return current.resolve() if root.name == 'reference' and current.is_dir() else root.resolve()
+
+
+def load_data(root=REFERENCE_ROOT):
+    root = resolve_reference_root(root)
     signature = tuple((root / name).stat().st_mtime_ns for name in FILES)
     # Dash may request inventory and map concurrently during first render.
     with _LOAD_LOCK:
@@ -63,7 +69,7 @@ WEATHER_FILES = ('hospital_weather_mapping.csv', 'weather_stations.geojson', 'ns
 
 
 def load_weather(root=REFERENCE_ROOT):
-    root = Path(root)
+    root = resolve_reference_root(root)
     signature = tuple((root / name).stat().st_mtime_ns for name in WEATHER_FILES)
     with _LOAD_LOCK:
         return _load_weather(str(root), signature)

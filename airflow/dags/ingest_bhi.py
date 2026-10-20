@@ -43,12 +43,16 @@ def ingest_bhi() -> None:
 
     result = ingest()
     gate = continue_if_new(result)
-    trigger_reference = TriggerDagRunOperator(
-        task_id="build_reference_data",
-        trigger_dag_id="build_reference_data",
+    trigger_pipeline = TriggerDagRunOperator(
+        task_id="rebuild_forecasts",
+        trigger_dag_id="rebuild_forecasts",
+        trigger_run_id="bhi__{{ ti.xcom_pull(task_ids='ingest_if_new')['sha256'] }}",
+        conf=result,
+        skip_when_already_exists=True,
+        fail_when_dag_is_paused=True,
         wait_for_completion=False,
     )
-    gate >> trigger_reference
+    gate >> trigger_pipeline
 
 
 ingest_bhi()

@@ -36,7 +36,7 @@ def create_app():
                     dmc.Title('Data Engineering', order=1),
                     dmc.Text('Trace the sources, orchestration and geography behind the project.', c='dimmed')]),
                     dmc.Button('Reload local data', id='reload', variant='light')], justify='space-between'),
-                dmc.Alert('Repository lineage • local file inventory • Airflow execution status is not connected.',
+                dmc.Alert('Displays local pipeline outputs. View live execution status in Airflow.',
                           color='blue', mt='lg', mb='lg'),
                 html.Div(id='inventory', className='metrics'),
                 dmc.Title('Geographic correspondence', order=2, mt='xl', mb='xs'),

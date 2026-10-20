@@ -10,6 +10,38 @@ and next-quarter XGBoost forecasts.
 Use **Linux or WSL2**, with the project stored under `/home/...`. Run commands
 from the repository root using the project’s `.venv-wsl` environment.
 
+To run the demo after installing the dependencies below and those in
+`dashboard-dash-mantine/requirements.txt`:
+
+```bash
+.venv-wsl/bin/python demo_launcher.py
+```
+
+This starts Airflow at http://127.0.0.1:8080 and the dashboard at
+http://127.0.0.1:8050, enables the ingestion/rebuild DAGs, and keeps both running
+until **Ctrl+C**. Keep the terminal open and the computer awake. Logs, the
+Airflow database, and generated login credentials are retained under `.demo/`;
+the launcher prints the password-file location for user `admin`.
+Existing schedules remain in effect (BHI monthly; BoM and SEIFA daily).
+It does not force a download or model rebuild each time it starts. Existing
+dashboard data is available while Airflow waits for its next scheduled check;
+use the Airflow UI to trigger ingestion or a rebuild during a demonstration.
+Refresh the dashboard after a completed publication to see the updated data.
+
+If the demo launcher fails, launch just the dashboard from the repository root:
+
+```bash
+.venv-wsl/bin/python dashboard-dash-mantine/app.py
+```
+
+Open **http://127.0.0.1:8050**. This reads existing local pipeline outputs without
+starting Airflow. Keep the terminal open; press **Ctrl+C** to stop the dashboard.
+See [Run the dashboard](#-run-the-dashboard) below for dependency installation.
+
+Use `--airflow-port` / `--dashboard-port` if the defaults are occupied, or
+`--help` for other options. The demo uses Airflow's local
+[standalone mode](https://airflow.apache.org/docs/apache-airflow/stable/start.html).
+
 ```bash
 python3 -m venv .venv-wsl
 .venv-wsl/bin/python -m pip install --upgrade pip
@@ -114,7 +146,8 @@ model guides for configuration and evaluation details.
 
 | Path | Contents |
 | --- | --- |
-| `airflow/dags/` | Scheduled ingestion and reference workflows |
+| `airflow/dags/` | Scheduled ingestion and triggered forecast rebuilds |
+| `src/pipeline/` | Pinned builds, validation and release publication |
 | `src/ingestion/` | Source downloads and raw storage |
 | `src/reference/` | Geographic validation and mappings |
 | `src/transform/` | BHI, weather, socioeconomic and panel processing |

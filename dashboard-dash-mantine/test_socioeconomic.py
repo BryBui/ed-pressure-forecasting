@@ -26,6 +26,26 @@ class SocioeconomicTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'sum to mapped'):
                 load_socioeconomic(path)
 
+    def test_circle_area_tracks_population_independently_of_selection(self):
+        frame = load_socioeconomic()
+        frame.loc[frame.index[:3], 'population_sum'] = [0, 100_000, 400_000]
+        selected = frame.iloc[1].lhd_code
+        rank, _ = figures(frame, 'irsd', 'mean', selected)
+        unselected, _ = figures(frame, 'irsd', 'mean', None)
+        ordered = frame.sort_values('irsd_mean', ascending=False)
+        marker = rank.data[0].marker
+        self.assertEqual(marker.sizemode, 'area')
+        self.assertEqual(list(marker.size), list(ordered.population_sum))
+        self.assertEqual(list(marker.size), list(unselected.data[0].marker.size))
+        self.assertEqual(marker.sizeref, unselected.data[0].marker.sizeref)
+        position = list(ordered.lhd_code).index(selected)
+        self.assertEqual(marker.line.color[position], '#254456')
+        self.assertEqual(marker.line.width[position], 3)
+
+        frame['population_sum'] = 0
+        empty, _ = figures(frame, 'irsd', 'mean', None)
+        self.assertGreater(empty.data[0].marker.sizeref, 0)
+
     def test_page_routing_and_update_callback(self):
         app = create_app()
         client = app.server.test_client()

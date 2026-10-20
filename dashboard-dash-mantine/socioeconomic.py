@@ -58,7 +58,7 @@ def layout():
         html.Div([
             card([dmc.Text('THE DISTRICT COMPARISON', size='xs', fw=700, c='teal'),
                   dmc.Title('A spectrum of local context', order=3, mt='xs'),
-                  dmc.Text('Lower scores → greater relative disadvantage. Select a dot to explore.', size='sm', c='dimmed'),
+                  dmc.Text('Lower scores → greater relative disadvantage. Circle area shows included population. Select a circle to explore.', size='sm', c='dimmed'),
                   dcc.Graph(id='socio-ranking', config={'displaylogo': False}, style={'height': '590px'})]),
             card([dmc.Text('DISTRICT SPOTLIGHT', size='xs', fw=700, c='teal'),
                   dmc.Select(id='socio-district', label='Local Health District', searchable=True, clearable=False, mt='md'),
@@ -81,8 +81,11 @@ def figures(frame, index, method, selected):
     rank = go.Figure(go.Scatter(
         x=ordered[col], y=ordered.district, mode='markers',
         customdata=ordered[['lhd_code', 'coverage', 'population_sum']].to_numpy(),
-        marker={'size': [17 if code == selected else 12 for code in ordered.lhd_code],
-                'color': ordered[col], 'colorscale': COLORS, 'line': {'color': '#fff', 'width': 2}},
+        marker={'size': ordered.population_sum, 'sizemode': 'area',
+                'sizeref': max(float(ordered.population_sum.max()), 1) / 28**2,
+                'color': ordered[col], 'colorscale': COLORS,
+                'line': {'color': ['#254456' if code == selected else '#fff' for code in ordered.lhd_code],
+                         'width': [3 if code == selected else 2 for code in ordered.lhd_code]}},
         hovertemplate='%{y}<br>Score: %{x:.1f}<br>SA1 coverage: %{customdata[1]:.1f}%<br>Included population: %{customdata[2]:,.0f}<extra></extra>'))
     if pd.notna(reference):
         rank.add_vline(x=reference, line_dash='dot', line_color='#8496a3',

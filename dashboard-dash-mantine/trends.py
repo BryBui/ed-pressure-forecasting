@@ -13,8 +13,15 @@ ROOT = Path(__file__).resolve().parents[1] / 'data'
 ALL = 'all'
 
 
-def load_trends(root=ROOT):
+def resolve_data_root(root):
+    """Pin one published release for every file read by a dashboard request."""
     root = Path(root)
+    current = root / '.pipeline/current/data'
+    return current.resolve() if current.is_dir() else root
+
+
+def load_trends(root=ROOT):
+    root = resolve_data_root(root)
     files = ['silver/linking/lhd_bhi_lags.csv', 'silver/linking/hospital_bhi_lags.csv',
              'reference/nsw_lhds.csv', 'reference/nsw_hospitals.csv',
              'reference/nsw_lhd_boundaries.geojson', 'reference/hospital_weather_mapping.csv']

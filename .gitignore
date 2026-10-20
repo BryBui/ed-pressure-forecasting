@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 .venv-wsl/
+.demo/
 .tmp*/
 
 # Keep the raw dataset roots, but never commit downloaded source data.
@@ -35,6 +36,7 @@ htmlcov/
 *.key
 
 # Generated datasets and trained models; retain directory placeholders.
+data/.pipeline/
 data/silver/**/*
 !data/silver/**/
 !data/silver/**/.gitkeep

@@ -50,7 +50,124 @@ BHI release watcher
 `airflow/dags/ingest_bhi.py` checks BHI's public download page at 09:00 UTC on
 the first day of each month. The polling task creates a raw snapshot only when
 workbook content is new. A new snapshot triggers the otherwise-unscheduled
-`build_reference_data` DAG; unchanged checks do not rebuild the reference.
+`rebuild_forecasts` DAG; unchanged checks do not rebuild outputs. The standalone
+`build_reference_data` DAG remains available for manual reference maintenance.
+
+## Quarterly forecast orchestration
+
+`ingest_bhi` passes the exact workbook path, checksum and reporting period to
+`rebuild_forecasts`. The downstream run ID includes the checksum, so retrying
+the trigger cannot create a second run for the same workbook. Revisions to an
+existing reporting quarter also trigger a rebuild when their content changes.
+The trigger fails visibly if the downstream DAG is paused. Airflow's trigger
+behaviour is documented in the [standard provider reference](https://airflow.apache.org/docs/apache-airflow-providers-standard/stable/_api/airflow/providers/standard/operators/trigger_dagrun/index.html).
+
+The downstream graph is:
+
+```text
+prepare pinned inputs
+  -> refresh references and regenerate SA1-to-LHD correspondence
+  -> BHI exports and pressure series, BoM quarters, SEIFA summaries, panels
+  -> hospital training + LHD training
+  -> validate artifacts, entity coverage, forecast quarter and numeric values
+  -> publish completed release
+```
+
+Only one downstream run is active at a time. Hospital and LHD training can run
+in parallel. Tasks retry twice, five minutes apart. Existing transformation
+and training CLIs run using `.venv-wsl/bin/python` inside a project-shaped
+workspace, with a pinned copy of `src` (including TOML configuration). Training
+uses the existing selected hyperparameters and chronological validation;
+routine quarterly updates do not run a new hyperparameter search.
+
+`src/pipeline/rebuild.py` implements preparation, execution, validation and
+publication independently of Airflow. Workspaces live at:
+
+```text
+data/.pipeline/runs/<hash of Airflow run ID>/
+  manifest.json             # workbook identity and input/code checksums
+  inputs/                  # baseline reference snapshot and 2021 SEIFA workbook
+  src/                     # code and configuration used by this run
+  data/raw/                # exact BHI workbook and pinned BoM snapshots
+  data/reference/          # refreshed references and derived correspondences
+  data/silver/             # complete rebuilt Silver outputs
+  data/gold/               # predictions, training metrics and hyperparameters
+  models/                  # trained XGBoost models
+  validation.json          # output checks and weather coverage report
+```
+
+Preparation copies the latest available 2021 SEIFA snapshot and all BoM JSON
+snapshots present at preparation time. It honours `RAW_DATA_ROOT` and
+`REFERENCE_DATA_ROOT` as input locations. The pinned baseline must include
+`nsw_sa1_boundaries.geojson`; run the existing SA1 mapper first if it is missing.
+Raw inputs and the original `data/reference` directory are preserved. External
+reference services are contacted by the reference task; their refreshed
+outputs are retained with the release. Later reference/task retries can contact
+those services again. Source ingestion still runs on its own schedules.
+
+The first successful publication moves existing Silver, Gold and model
+directories into a retained `data/.pipeline/bootstrap-*` directory, then sets
+up stable symlinks at `data/silver`, `data/gold` and `models`. Initial setup
+rolls back on a publication error; schedule that first migration while the
+dashboard is idle. Subsequent publications atomically switch the single
+`data/.pipeline/current` symlink. Previous successful releases and failed
+workspaces remain available for inspection; retention cleanup is manual.
+This also removes obsolete files from the visible outputs because every
+release starts with empty derived-output directories.
+
+Matching generated references are available at
+`data/.pipeline/current/data/reference`; the original `data/reference` remains
+the baseline for manual reference work. The dashboard resolves the current
+release once per load so its forecasts, panels and references come from the
+same release. Other consumers that read multiple output files should likewise
+resolve `data/.pipeline/current/data` once before reading them.
+
+Validation loads every saved model, checks the complete expected set of
+entities and targets, rejects nonfinite predictions, and requires forecasts
+for the quarter immediately after the BHI reporting period. It records missing
+weather stations, incomplete station quarters and available weather periods.
+Missing historical weather is currently reported rather than a publication
+failure: rolling BoM collection cannot supply the full BHI history. Missing
+weather values remain blank; the pipeline does not fabricate historical weather
+or certify weather-based model performance. No new quality threshold against
+the persistence baseline is imposed by this orchestration change.
+
+### Running and recovering
+
+All Airflow workers need the same Linux project filesystem and interpreter.
+Configure the DAG folder as this repository's `airflow/dags` and install the
+project in `.venv-wsl`. Unpause `rebuild_forecasts` before enabling `ingest_bhi`.
+Implementing these files does not start or configure an Airflow service.
+
+For a manual rebuild, trigger `rebuild_forecasts` in the Airflow UI with:
+
+```json
+{
+  "path": "/absolute/path/to/data/raw/bhi/ed_performance/year=2026/quarter=Q2/ed_performance_2026Q2_20261018T113620Z.xlsx",
+  "sha256": "the workbook SHA-256 checksum",
+  "reporting_period": "2026Q2"
+}
+```
+
+Use an existing immutable workbook snapshot and its actual checksum. An
+unchanged BHI download deliberately does not trigger a rebuild, so use this
+manual route after code/configuration changes or when recovering a failed
+trigger. Clear failed tasks in the downstream run to retry against its pinned
+inputs; use a new manual run ID to incorporate newer inputs or code. Clearing
+tasks of an already published run does not modify that release. Publication
+rejects an older prepared run if a newer release has already been published.
+
+Offline verification:
+
+```bash
+.venv-wsl/bin/python -m unittest tests.test_pipeline -v
+.venv-wsl/bin/python -m unittest discover -s tests -v
+.venv-wsl/bin/python -m unittest discover -s dashboard-dash-mantine -v
+```
+
+The pipeline tests cover input pinning, DAG dependencies, real model loading,
+invalid-output rejection, first-publication rollback, replacement of obsolete
+files, and preservation of previous releases and raw/reference inputs.
 
 The reference code reads BHI's `Overall results` sheet. BHI reports specialty
 networks at the `LHD` reporting level, so only entity IDs ending in `LHD` are

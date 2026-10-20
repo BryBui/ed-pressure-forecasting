@@ -1,9 +1,35 @@
 import unittest
+from pathlib import Path
+import tempfile
 
 import pandas as pd
 
 from app import create_app
-from trends import ALL, load_trends, scope_data, trend_figure, pressure_map
+from trends import ALL, load_trends, scope_data, trend_figure, pressure_map, resolve_data_root
+from data import resolve_reference_root
+
+
+class ReleaseReadTests(unittest.TestCase):
+    def test_one_load_keeps_its_release_when_publication_switches(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / 'data'
+            root.mkdir()
+            self.assertEqual(resolve_data_root(root), root)
+            state = root / '.pipeline'
+            first, second = state / 'runs/first', state / 'runs/second'
+            for release in (first, second):
+                (release / 'data/reference').mkdir(parents=True)
+            current = state / 'current'
+            current.symlink_to(first)
+            held_data = resolve_data_root(root)
+            held_reference = resolve_reference_root(root / 'reference')
+            replacement = state / 'next'
+            replacement.symlink_to(second)
+            replacement.replace(current)
+            self.assertEqual(held_data, first / 'data')
+            self.assertEqual(held_reference, first / 'data/reference')
+            self.assertEqual(resolve_data_root(root), second / 'data')
+            self.assertEqual(resolve_reference_root(root / 'reference'), second / 'data/reference')
 
 
 class TrendsTests(unittest.TestCase):
