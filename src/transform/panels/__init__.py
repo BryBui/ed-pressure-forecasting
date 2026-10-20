@@ -1,0 +1,1 @@
+"""Quarterly modelling panels."""

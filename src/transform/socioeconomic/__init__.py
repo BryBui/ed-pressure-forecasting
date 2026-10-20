@@ -1,0 +1,1 @@
+"""Socioeconomic aggregation transformations."""

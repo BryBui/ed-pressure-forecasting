@@ -1,0 +1,28 @@
+{
+  "status": "passed_with_warnings",
+  "scope": "Hospitals present in the latest BHI ED reporting quarter",
+  "authoritative_hospital_register_checked": false,
+  "hospital_count": 73,
+  "source_unique_hospital_count": 80,
+  "included_current_hospital_count": 73,
+  "excluded_historical_only_hospital_count": 7,
+  "geographic_lhd_hospital_count": 70,
+  "specialty_network_hospital_count": 3,
+  "errors": [],
+  "warnings": [
+    "This is not a complete NSW hospital register; it reflects current BHI ED coverage.",
+    "Hospitals absent from BHI's latest quarter are excluded from reference and weather mapping outputs.",
+    "Specialty-network hospitals retain their BHI parent and use official point coordinates for weather mapping.",
+    "Thunder mappings beyond the preferred 50 km distance are retained as approved regional proxies and reported by count."
+  ],
+  "generated_at_utc": "2026-10-18T13:16:21+00:00",
+  "source_workbook": "ed_performance_2026Q2_20261018T113620Z.xlsx",
+  "lhd_count": 15,
+  "hospital_location_count": 73,
+  "weather_station_role_count": 5,
+  "weather_mapping_row_count": 365,
+  "selected_weather_station_count": 99,
+  "weather_mapping_approved_count": 365,
+  "weather_mapping_regional_proxy_count": 6,
+  "mapping_approved_at_utc": "2026-10-18T13:16:43+00:00"
+}

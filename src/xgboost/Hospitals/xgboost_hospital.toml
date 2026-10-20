@@ -1,0 +1,167 @@
+# Forecast from the end of quarter t to quarter t+1; pool all hospitals.
+# --tune selects the lowest rolling-validation MAE separately for each target.
+# Selected settings below are empirical winners within this finite search.
+[data]
+panels = "data/silver/hospital-panels"
+output = "data/gold/xgboost/Hospitals"
+models = "models/xgboost/Hospitals"
+
+[targets]
+columns = [
+  "pressure_index",
+  "overall__total__total__90th_percentile_time_from_arrival_at_ed_to_leaving__minutes",
+  "overall__total__total__90th_percentile_time_to_transfer_care_from_paramedics_to_ed_staff__minutes",
+  "overall__total__total__arrivals_by_ambulance__number",
+  "overall__total__total__attendances__number",
+  "overall__total__total__emergency_presentations__number",
+  "overall__total__total__median_time_from_arrival_at_ed_to_leaving__minutes",
+  "overall__total__total__median_time_to_transfer_care_from_paramedics_to_ed_staff__minutes",
+  "overall__total__total__percentage_of_patients_leaving_ed_within_four_hours__percent",
+  "overall__total__total__percentage_of_patients_starting_treatment_on_time__percent",
+  "overall__total__total__percentage_of_patients_transferred_from_paramedics_to_ed_staff_within_30_minutes__percent",
+]
+
+[validation]
+folds = 3
+validation_quarters = 4
+min_train_quarters = 20
+
+[model]
+objective = "reg:squarederror"
+tree_method = "hist"
+max_bin = 64
+nthread = 4
+seed = 42
+subsample = 0.9
+colsample_bytree = 0.8
+
+[hyperparameters]
+num_boost_round = 150
+eta = 0.05
+max_depth = 2
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[[search.candidates]]
+num_boost_round = 150
+eta = 0.05
+max_depth = 2
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[[search.candidates]]
+num_boost_round = 250
+eta = 0.05
+max_depth = 2
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+[[search.candidates]]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[[search.candidates]]
+num_boost_round = 150
+eta = 0.1
+max_depth = 3
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+# Per-target winners from hospital rolling validation.
+
+[selected."overall__total__total__90th_percentile_time_from_arrival_at_ed_to_leaving__minutes"]
+num_boost_round = 150
+eta = 0.1
+max_depth = 3
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+[selected."overall__total__total__90th_percentile_time_to_transfer_care_from_paramedics_to_ed_staff__minutes"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__arrivals_by_ambulance__number"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__attendances__number"]
+num_boost_round = 150
+eta = 0.1
+max_depth = 3
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+[selected."overall__total__total__emergency_presentations__number"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__median_time_from_arrival_at_ed_to_leaving__minutes"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__median_time_to_transfer_care_from_paramedics_to_ed_staff__minutes"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__percentage_of_patients_leaving_ed_within_four_hours__percent"]
+num_boost_round = 250
+eta = 0.05
+max_depth = 2
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+[selected."overall__total__total__percentage_of_patients_starting_treatment_on_time__percent"]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1
+
+[selected."overall__total__total__percentage_of_patients_transferred_from_paramedics_to_ed_staff_within_30_minutes__percent"]
+num_boost_round = 150
+eta = 0.1
+max_depth = 3
+min_child_weight = 5
+lambda = 5.0
+alpha = 0.1
+
+# Selected by rolling validation for the direct next-quarter pressure target.
+[selected.pressure_index]
+num_boost_round = 150
+eta = 0.05
+max_depth = 3
+min_child_weight = 10
+lambda = 10.0
+alpha = 0.1

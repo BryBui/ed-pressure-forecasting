@@ -1,0 +1,2410 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "040717",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5053,
+          -28.1681
+        ]
+      },
+      "properties": {
+        "bom_station_id": "040717",
+        "bom_station_name": "COOLANGATTA",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H221",
+          "H223"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "047019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4173,
+          -32.3937
+        ]
+      },
+      "properties": {
+        "bom_station_id": "047019",
+        "bom_station_name": "MENINDEE POST OFFICE",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "S201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "047048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.4694,
+          -32.0012
+        ]
+      },
+      "properties": {
+        "bom_station_id": "047048",
+        "bom_station_name": "BROKEN HILL AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "S201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "053115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.8471,
+          -29.4898
+        ]
+      },
+      "properties": {
+        "bom_station_id": "053115",
+        "bom_station_name": "MOREE AERO",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "J212"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "055325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8362,
+          -31.0742
+        ]
+      },
+      "properties": {
+        "bom_station_id": "055325",
+        "bom_station_name": "TAMWORTH AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "J216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "056018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.082,
+          -29.7752
+        ]
+      },
+      "properties": {
+        "bom_station_id": "056018",
+        "bom_station_name": "INVERELL RESEARCH CENTRE",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "J208"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "056037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6716,
+          -30.5243
+        ]
+      },
+      "properties": {
+        "bom_station_id": "056037",
+        "bom_station_name": "ARMIDALE (TREE GROUP NURSERY)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "J201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "056238",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6158,
+          -30.5273
+        ]
+      },
+      "properties": {
+        "bom_station_id": "056238",
+        "bom_station_name": "ARMIDALE AIRPORT AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "J201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "056242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1121,
+          -29.7796
+        ]
+      },
+      "properties": {
+        "bom_station_id": "056242",
+        "bom_station_name": "INVERELL (RAGLAN ST)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "J208"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9605,
+          -29.6224
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058077",
+        "bom_station_name": "GRAFTON RESEARCH STN",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H210"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5778,
+          -28.2562
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058137",
+        "bom_station_name": "KINGSCLIFF (WORAM PLACE)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "H223"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3809,
+          -28.3395
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058158",
+        "bom_station_name": "MURWILLUMBAH (BRAY PARK)",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "H221",
+          "H223"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0297,
+          -29.7583
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058161",
+        "bom_station_name": "GRAFTON AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "H210"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058186",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.402,
+          -28.3274
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058186",
+        "bom_station_name": "NORTH MURWILLUMBAH (TWEED RIVER)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "H221"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058198",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5585,
+          -28.8353
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058198",
+        "bom_station_name": "BALLINA AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058214",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2601,
+          -28.8305
+        ]
+      },
+      "properties": {
+        "bom_station_id": "058214",
+        "bom_station_name": "LISMORE AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H214"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "059007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7717,
+          -31.0711
+        ]
+      },
+      "properties": {
+        "bom_station_id": "059007",
+        "bom_station_name": "KEMPSEY AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H212",
+          "H216"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "059140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7187,
+          -30.3444
+        ]
+      },
+      "properties": {
+        "bom_station_id": "059140",
+        "bom_station_name": "DORRIGO (OLD CORAMBA RD)",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "H216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "059148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8708,
+          -30.5617
+        ]
+      },
+      "properties": {
+        "bom_station_id": "059148",
+        "bom_station_name": "KALANG (SPICKETTS CK (NOONANNIE))",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "H216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "059151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1162,
+          -30.3189
+        ]
+      },
+      "properties": {
+        "bom_station_id": "059151",
+        "bom_station_name": "COFFS HARBOUR AIRPORT",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H208"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "060141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.512,
+          -31.8895
+        ]
+      },
+      "properties": {
+        "bom_station_id": "060141",
+        "bom_station_name": "TAREE AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "J225"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "060168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8662,
+          -31.4343
+        ]
+      },
+      "properties": {
+        "bom_station_id": "060168",
+        "bom_station_name": "PORT MACQUARIE AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "H212",
+          "H272"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.7985,
+          -32.9184
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061055",
+        "bom_station_name": "NEWCASTLE NOBBYS SIGNAL STATION AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "Q211",
+          "Q214",
+          "Q230"
+        ],
+        "hospital_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8364,
+          -32.7939
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061078",
+        "bom_station_name": "WILLIAMTOWN RAAF",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "B206",
+          "Q211",
+          "Q214",
+          "Q230"
+        ],
+        "hospital_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3335,
+          -32.5932
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061092",
+        "bom_station_name": "ELDERSLIE",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "Q217"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3369,
+          -32.7914
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061260",
+        "bom_station_name": "CESSNOCK AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "Q202",
+          "Q205"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061268",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.555,
+          -32.73
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061268",
+        "bom_station_name": "MAITLAND BELMORE BRIDGE (HUNTER RIVER)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "Q206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061329",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3085,
+          -32.8323
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061329",
+        "bom_station_name": "POKOLBIN (JACKSONS HILL)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "Q202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061360",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8528,
+          -32.05
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061360",
+        "bom_station_name": "SCONE (KINGDON PONDS)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "Q209"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061363",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8264,
+          -32.0335
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061363",
+        "bom_station_name": "SCONE AIRPORT AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "Q209"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061366",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.5766,
+          -33.2814
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061366",
+        "bom_station_name": "NORAH HEAD AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "B206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061406",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.6521,
+          -33.0814
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061406",
+        "bom_station_name": "NEWCASTLE (BLACKSMITHS)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "Q214"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061425",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3614,
+          -33.4351
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061425",
+        "bom_station_name": "GOSFORD AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "B202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.4881,
+          -32.7023
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061428",
+        "bom_station_name": "MAITLAND AIRPORT AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "Q202",
+          "Q205",
+          "Q206",
+          "Q217"
+        ],
+        "hospital_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061430",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1564,
+          -32.6976
+        ]
+      },
+      "properties": {
+        "bom_station_id": "061430",
+        "bom_station_name": "SINGLETON DEFENCE AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "Q217"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "062101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.6149,
+          -32.5628
+        ]
+      },
+      "properties": {
+        "bom_station_id": "062101",
+        "bom_station_name": "MUDGEE AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "K216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2953,
+          -33.7139
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063039",
+        "bom_station_name": "KATOOMBA (FARNELLS RD)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "D204"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1303,
+          -33.4769
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063226",
+        "bom_station_name": "LITHGOW (COOERWULL)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "L213"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063254",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0828,
+          -33.3211
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063254",
+        "bom_station_name": "ORANGE AGRICULTURAL INSTITUTE",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "L216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.654,
+          -33.4119
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063291",
+        "bom_station_name": "BATHURST AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "L201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.2741,
+          -33.6185
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063292",
+        "bom_station_name": "MOUNT BOYCE AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D204"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1263,
+          -33.3768
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063303",
+        "bom_station_name": "ORANGE AIRPORT AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "L216"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063308",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.135,
+          -33.4346
+        ]
+      },
+      "properties": {
+        "bom_station_id": "063308",
+        "bom_station_name": "MARRANGAROO (DEFENCE)",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "L213"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "065034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9503,
+          -32.5635
+        ]
+      },
+      "properties": {
+        "bom_station_id": "065034",
+        "bom_station_name": "WELLINGTON (D&J RURAL)",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "K211"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "065070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.5753,
+          -32.2206
+        ]
+      },
+      "properties": {
+        "bom_station_id": "065070",
+        "bom_station_name": "DUBBO AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "K211"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "065103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.9205,
+          -33.3627
+        ]
+      },
+      "properties": {
+        "bom_station_id": "065103",
+        "bom_station_name": "FORBES AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "L209"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "065111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.654,
+          -33.8382
+        ]
+      },
+      "properties": {
+        "bom_station_id": "065111",
+        "bom_station_name": "COWRA AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "L206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0985,
+          -33.8523
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066013",
+        "bom_station_name": "CONCORD GOLF CLUB",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "A237"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1512,
+          -34.0703
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066014",
+        "bom_station_name": "CRONULLA SOUTH BOWLING CLUB",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "C214"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2254,
+          -33.8551
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066022",
+        "bom_station_name": "FORT DENISON",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "A208",
+          "A212",
+          "A233",
+          "B218"
+        ],
+        "hospital_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1731,
+          -33.9465
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066037",
+        "bom_station_name": "SYDNEY AIRPORT AMO",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "A202",
+          "A208",
+          "A212",
+          "A233",
+          "B218",
+          "C208",
+          "C213",
+          "C214",
+          "C238"
+        ],
+        "hospital_count": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2111,
+          -34.0039
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066043",
+        "bom_station_name": "KURNELL AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "C214"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2417,
+          -33.9085
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066052",
+        "bom_station_name": "RANDWICK (RANDWICK ST)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "C208",
+          "C238"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1292,
+          -33.9942
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066058",
+        "bom_station_name": "SANS SOUCI (PUBLIC SCHOOL)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "C213"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2253,
+          -33.6908
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066059",
+        "bom_station_name": "TERREY HILLS AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "B210",
+          "B259"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0181,
+          -33.7917
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066124",
+        "bom_station_name": "PARRAMATTA NORTH (MASONS DRIVE)",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "A207",
+          "A237",
+          "B202",
+          "B210",
+          "B224",
+          "B259",
+          "D201",
+          "D203",
+          "D218",
+          "D224"
+        ],
+        "hospital_count": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9837,
+          -33.9176
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066137",
+        "bom_station_name": "BANKSTOWN AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D206",
+          "D209",
+          "D227"
+        ],
+        "hospital_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9489,
+          -33.9925
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066161",
+        "bom_station_name": "HOLSWORTHY AERODROME AWS",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "D205",
+          "D215"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1134,
+          -33.9057
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066194",
+        "bom_station_name": "CANTERBURY RACECOURSE AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "A202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0718,
+          -33.8338
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066212",
+        "bom_station_name": "SYDNEY OLYMPIC PARK AWS (ARCHERY CENTRE)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "A207",
+          "A237",
+          "B224",
+          "D201",
+          "D224"
+        ],
+        "hospital_count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1201,
+          -33.8005
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066213",
+        "bom_station_name": "NORTH RYDE GOLF CLUB",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "B224"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066214",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2048,
+          -33.8593
+        ]
+      },
+      "properties": {
+        "bom_station_id": "066214",
+        "bom_station_name": "SYDNEY (OBSERVATORY HILL)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature"
+        ],
+        "bhi_hospital_ids": [
+          "A208",
+          "A212",
+          "A233",
+          "B218"
+        ],
+        "hospital_count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0958,
+          -33.7017
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067065",
+        "bom_station_name": "HORNSBY (SWIMMING POOL)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "B210"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8,
+          -33.8067
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067066",
+        "bom_station_name": "ERSKINE PARK RESERVOIR",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "D218"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7761,
+          -33.6004
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067105",
+        "bom_station_name": "RICHMOND RAAF",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D210",
+          "D311"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9236,
+          -33.7858
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067110",
+        "bom_station_name": "SEVEN HILLS  (RADIO FM 103.2)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "D203"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.018,
+          -33.7917
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067111",
+        "bom_station_name": "NORTH PARRAMATTA (BURNSIDE HOMES)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "A207",
+          "D224"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6783,
+          -33.7195
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067113",
+        "bom_station_name": "PENRITH LAKES AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D210"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8611,
+          -33.8667
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067114",
+        "bom_station_name": "ABBOTSBURY (FAIRFIELD (CITY FARM))",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "D206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8567,
+          -33.851
+        ]
+      },
+      "properties": {
+        "bom_station_id": "067119",
+        "bom_station_name": "HORSLEY PARK EQUESTRIAN CENTRE AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D203",
+          "D206",
+          "D218"
+        ],
+        "hospital_count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5353,
+          -34.9469
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068072",
+        "bom_station_name": "NOWRA RAN AIR STATION AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "P207"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.689,
+          -34.039
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068192",
+        "bom_station_name": "CAMDEN AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D205"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.605,
+          -34.8667
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068213",
+        "bom_station_name": "NOWRA BOAT SHED (SHOALHAVEN RIVER)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "P207"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9291,
+          -34.3692
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068228",
+        "bom_station_name": "BELLAMBI AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "P208"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068239",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4217,
+          -34.5253
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068239",
+        "bom_station_name": "MOSS VALE AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N219"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7924,
+          -34.5639
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068241",
+        "bom_station_name": "ALBION PARK (SHELLHARBOUR AIRPORT)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "P211"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068253",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9118,
+          -34.4734
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068253",
+        "bom_station_name": "PORT KEMBLA NTC AWS",
+        "weather_observation_groups": [
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "P208"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068255",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4014,
+          -34.4875
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068255",
+        "bom_station_name": "BOWRAL (ORCHARD ST)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "N219"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068257",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7735,
+          -34.0615
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068257",
+        "bom_station_name": "CAMPBELLTOWN (MOUNT ANNAN)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "D215"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068264",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6973,
+          -35.1439
+        ]
+      },
+      "properties": {
+        "bom_station_id": "068264",
+        "bom_station_name": "JERVIS BAY NSW (JERVIS BAY AIRFIELD AWS)",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "P205"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.838,
+          -36.6883
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069002",
+        "bom_station_name": "BEGA (NEWTOWN ROAD)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "N202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1872,
+          -35.7234
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069134",
+        "bom_station_name": "BATEMANS BAY (CATALINA COUNTRY CLUB)",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "N201"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4828,
+          -35.3635
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069138",
+        "bom_station_name": "ULLADULLA AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "P205"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.8191,
+          -36.6722
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069139",
+        "bom_station_name": "BEGA AWS",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.8989,
+          -36.9077
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069147",
+        "bom_station_name": "MERIMBULA AIRPORT AWS",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "N202"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1437,
+          -35.9004
+        ]
+      },
+      "properties": {
+        "bom_station_id": "069148",
+        "bom_station_name": "MORUYA AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N201",
+          "N211"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9725,
+          -36.2939
+        ]
+      },
+      "properties": {
+        "bom_station_id": "070217",
+        "bom_station_name": "COOMA AIRPORT AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070263",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7034,
+          -34.7495
+        ]
+      },
+      "properties": {
+        "bom_station_id": "070263",
+        "bom_station_name": "GOULBURN TAFE",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "N209"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070278",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1243,
+          -36.2318
+        ]
+      },
+      "properties": {
+        "bom_station_id": "070278",
+        "bom_station_name": "COOMA VISITORS CENTRE",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "N206"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.7311,
+          -34.8085
+        ]
+      },
+      "properties": {
+        "bom_station_id": "070330",
+        "bom_station_name": "GOULBURN AIRPORT AWS",
+        "weather_observation_groups": [
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N209"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070351",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.197,
+          -35.3106
+        ]
+      },
+      "properties": {
+        "bom_station_id": "070351",
+        "bom_station_name": "CANBERRA AIRPORT",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N215"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "072150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4575,
+          -35.1583
+        ]
+      },
+      "properties": {
+        "bom_station_id": "072150",
+        "bom_station_name": "WAGGA WAGGA AMO",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "R219"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "073014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.1523,
+          -33.8934
+        ]
+      },
+      "properties": {
+        "bom_station_id": "073014",
+        "bom_station_name": "GRENFELL (MANGANESE RD)",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "L206",
+          "L209"
+        ],
+        "hospital_count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "073138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.2475,
+          -34.2493
+        ]
+      },
+      "properties": {
+        "bom_station_id": "073138",
+        "bom_station_name": "YOUNG AIRPORT",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "N218"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "074127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3636,
+          -35.1071
+        ]
+      },
+      "properties": {
+        "bom_station_id": "074127",
+        "bom_station_name": "WAGGA WAGGA (GURWOOD STREET)",
+        "weather_observation_groups": [
+          "rainfall"
+        ],
+        "bhi_hospital_ids": [
+          "R219"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "074258",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9458,
+          -35.5575
+        ]
+      },
+      "properties": {
+        "bom_station_id": "074258",
+        "bom_station_name": "DENILIQUIN AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "M207"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "074272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2512,
+          -35.1327
+        ]
+      },
+      "properties": {
+        "bom_station_id": "074272",
+        "bom_station_name": "KAPOOKA (DEFENCE)",
+        "weather_observation_groups": [
+          "relative_humidity",
+          "temperature",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "R219"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "075041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0698,
+          -34.2489
+        ]
+      },
+      "properties": {
+        "bom_station_id": "075041",
+        "bom_station_name": "GRIFFITH AIRPORT AWS",
+        "weather_observation_groups": [
+          "rainfall",
+          "relative_humidity",
+          "temperature",
+          "thunderstorms",
+          "wind"
+        ],
+        "bhi_hospital_ids": [
+          "R205"
+        ],
+        "hospital_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "080015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7639,
+          -36.1639
+        ]
+      },
+      "properties": {
+        "bom_station_id": "080015",
+        "bom_station_name": "ECHUCA AERODROME",
+        "weather_observation_groups": [
+          "thunderstorms"
+        ],
+        "bhi_hospital_ids": [
+          "M207"
+        ],
+        "hospital_count": 1
+      }
+    }
+  ]
+}

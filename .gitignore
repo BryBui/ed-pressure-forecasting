@@ -1,0 +1,67 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-wsl/
+.tmp*/
+
+# Keep the raw dataset roots, but never commit downloaded source data.
+data/raw/**/*
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Interrupted downloads are always disposable.
+*.part
+
+# Python packaging and test/tool caches.
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Generated datasets and trained models; retain directory placeholders.
+data/silver/**/*
+!data/silver/**/
+!data/silver/**/.gitkeep
+data/gold/**/*
+!data/gold/**/
+!data/gold/**/.gitkeep
+models/**/*
+!models/**/
+!models/**/.gitkeep
+
+# Large downloadable boundary layers; keep small reference tables in Git.
+data/reference/nsw_lhd_boundaries.geojson
+data/reference/nsw_sa1_boundaries.geojson
+
+# Airflow runtime state (DAG source remains tracked).
+airflow/logs/
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/airflow.db*
+airflow/*.pid
+airflow/*.log
+airflow/simple_auth_manager_passwords.json*
+*.log
+
+# Editor and operating-system files.
+.idea/
+.vscode/
+*~
+.DS_Store
+Thumbs.db

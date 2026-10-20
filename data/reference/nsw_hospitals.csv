@@ -1,0 +1,74 @@
+bhi_hospital_id,hospital_name,hospital_short_name,bhi_parent_name,bhi_parent_type,geographic_lhd_id,geographic_lhd_name,first_reported_quarter,latest_reported_quarter,present_in_latest_quarter,source_workbook
+A202,Canterbury Hospital,Canterbury,Sydney,geographic_lhd,SYDLHD,Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+A207,The Children's Hospital at Westmead,Children's at Westmead,Sydney Children's Hospitals Network,specialty_network,,,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+A208,Royal Prince Alfred Hospital,Royal Prince Alfred,Sydney,geographic_lhd,SYDLHD,Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+A212,St Vincent's Hospital Sydney,St Vincent's,St Vincent's Health Network,specialty_network,,,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+A233,Sydney Hospital and Sydney Eye Hospital,Sydney and Sydney Eye,South Eastern Sydney,geographic_lhd,SESLHD,South Eastern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+A237,Concord Repatriation General Hospital,Concord,Sydney,geographic_lhd,SYDLHD,Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B202,Gosford Hospital,Gosford,Central Coast,geographic_lhd,CCLHD,Central Coast Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B206,Wyong Hospital,Wyong,Central Coast,geographic_lhd,CCLHD,Central Coast Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B210,Hornsby Ku-ring-gai Hospital,Hornsby,Northern Sydney,geographic_lhd,NSLHD,Northern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B218,Royal North Shore Hospital,Royal North Shore,Northern Sydney,geographic_lhd,NSLHD,Northern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B224,Ryde Hospital,Ryde,Northern Sydney,geographic_lhd,NSLHD,Northern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+B259,Northern Beaches Hospital,Northern Beaches,Northern Sydney,geographic_lhd,NSLHD,Northern Sydney Local Health District,2018Q4,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+C208,Prince of Wales Hospital,Prince of Wales,South Eastern Sydney,geographic_lhd,SESLHD,South Eastern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+C213,St George Hospital,St George,South Eastern Sydney,geographic_lhd,SESLHD,South Eastern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+C214,Sutherland Hospital,Sutherland,South Eastern Sydney,geographic_lhd,SESLHD,South Eastern Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+C238,"Sydney Children's Hospital, Randwick",Sydney Children's Randwick,Sydney Children's Hospitals Network,specialty_network,,,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D201,Auburn Hospital,Auburn,Western Sydney,geographic_lhd,WSLHD,Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D203,Blacktown Hospital,Blacktown,Western Sydney,geographic_lhd,WSLHD,Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D204,Blue Mountains District ANZAC Memorial Hospital,Blue Mountains,Nepean Blue Mountains,geographic_lhd,NBMLHD,Nepean Blue Mountains Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D205,Camden Hospital,Camden,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2025Q4,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D206,Fairfield Hospital,Fairfield,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D209,Liverpool Hospital,Liverpool,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D210,Nepean Hospital,Nepean,Nepean Blue Mountains,geographic_lhd,NBMLHD,Nepean Blue Mountains Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D215,Campbelltown Hospital,Campbelltown,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D218,Mount Druitt Hospital,Mount Druitt,Western Sydney,geographic_lhd,WSLHD,Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D224,Westmead Hospital,Westmead,Western Sydney,geographic_lhd,WSLHD,Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D227,Bankstown-Lidcombe Hospital,Bankstown-Lidcombe,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+D311,Hawkesbury District Hospital,Hawkesbury,Nepean Blue Mountains,geographic_lhd,NBMLHD,Nepean Blue Mountains Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H201,Ballina District Hospital,Ballina,Northern NSW,geographic_lhd,NNSWLHD,Northern NSW Local Health District,2011Q3,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H208,Coffs Harbour Health Campus,Coffs Harbour,Mid North Coast,geographic_lhd,MNCLHD,Mid North Coast Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H210,Grafton Base Hospital,Grafton,Northern NSW,geographic_lhd,NNSWLHD,Northern NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H212,Kempsey District Hospital,Kempsey,Mid North Coast,geographic_lhd,MNCLHD,Mid North Coast Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H214,Lismore Base Hospital,Lismore,Northern NSW,geographic_lhd,NNSWLHD,Northern NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H216,Macksville District Hospital,Macksville,Mid North Coast,geographic_lhd,MNCLHD,Mid North Coast Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H221,Murwillumbah District Hospital,Murwillumbah,Northern NSW,geographic_lhd,NNSWLHD,Northern NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H223,Tweed Valley Hospital,Tweed Valley,Northern NSW,geographic_lhd,NNSWLHD,Northern NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+H272,Port Macquarie Base Hospital,Port Macquarie,Mid North Coast,geographic_lhd,MNCLHD,Mid North Coast Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+J201,Armidale Hospital,Armidale,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+J208,Inverell Hospital,Inverell,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+J212,Moree Hospital,Moree,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+J216,Tamworth Hospital,Tamworth,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+J225,Manning Hospital,Manning,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+K211,Dubbo Hospital,Dubbo,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+K216,Mudgee Health Service,Mudgee,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2014Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+L201,Bathurst Health Service,Bathurst,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+L206,Cowra Health Service,Cowra,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2016Q3,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+L209,Lachlan Health Service - Forbes,Forbes,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2014Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+L213,Lithgow Hospital,Lithgow,Nepean Blue Mountains,geographic_lhd,NBMLHD,Nepean Blue Mountains Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+L216,Orange Health Service,Orange,Western NSW,geographic_lhd,WNSWLHD,Western NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+M207,Deniliquin Health Service,Deniliquin,Murrumbidgee,geographic_lhd,MLHD,Murrumbidgee Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N201,Batemans Bay Hospital and Health Service,Batemans Bay,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N202,South East Regional Hospital,South East Regional,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2010Q3,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N206,Cooma Hospital and Health Service,Cooma,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2016Q3,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N209,Goulburn Base Hospital,Goulburn,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N211,Moruya Hospital and Health Service,Moruya,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N215,Queanbeyan Hospital and Health Service,Queanbeyan,Southern NSW,geographic_lhd,SNSWLHD,Southern NSW Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N218,Young Health Service,Young,Murrumbidgee,geographic_lhd,MLHD,Murrumbidgee Local Health District,2013Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+N219,Bowral and District Hospital,Bowral,South Western Sydney,geographic_lhd,SWSLHD,South Western Sydney Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+P205,Milton Ulladulla Hospital,Milton,Illawarra Shoalhaven,geographic_lhd,ISLHD,Illawarra Shoalhaven Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+P207,Shoalhaven District Memorial Hospital,Shoalhaven,Illawarra Shoalhaven,geographic_lhd,ISLHD,Illawarra Shoalhaven Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+P208,Wollongong Hospital,Wollongong,Illawarra Shoalhaven,geographic_lhd,ISLHD,Illawarra Shoalhaven Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+P211,Shellharbour Hospital,Shellharbour,Illawarra Shoalhaven,geographic_lhd,ISLHD,Illawarra Shoalhaven Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q202,Cessnock Hospital,Cessnock,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q205,Kurri Kurri Hospital,Kurri Kurri,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q206,Maitland Hospital,Maitland,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q209,Muswellbrook Hospital,Muswellbrook,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q211,Calvary Mater Newcastle,Calvary Mater,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q214,Belmont Hospital,Belmont,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q217,Singleton Hospital,Singleton,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+Q230,John Hunter Hospital,John Hunter,Hunter New England,geographic_lhd,HNELHD,Hunter New England Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+R205,Griffith Base Hospital,Griffith,Murrumbidgee,geographic_lhd,MLHD,Murrumbidgee Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+R219,Wagga Wagga Base Hospital,Wagga Wagga,Murrumbidgee,geographic_lhd,MLHD,Murrumbidgee Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx
+S201,Broken Hill Health Service,Broken Hill,Far West,geographic_lhd,FWLHD,Far West Local Health District,2010Q1,2026Q2,true,ed_performance_2026Q2_20261018T113620Z.xlsx

@@ -1,0 +1,19 @@
+# Provisional project weights, pending domain consultation; not a validated index.
+# Shared by hospital and LHD panels. Higher pressure_index means more pressure.
+# Each input is a percentage of timely care, converted to 1 - value / 100.
+# pressure_index = sum(weight * converted_value) / sum(available weights).
+# Missing/suppressed measures are excluded; no available measures yields blank.
+# Counts and minutes are excluded to avoid mixing units and hospital-size effects.
+# Only overall measures are used to avoid counting overlapping subgroups twice.
+
+[[measures]]
+column = "overall__total__total__percentage_of_patients_leaving_ed_within_four_hours__percent"
+weight = 0.40
+
+[[measures]]
+column = "overall__total__total__percentage_of_patients_starting_treatment_on_time__percent"
+weight = 0.35
+
+[[measures]]
+column = "overall__total__total__percentage_of_patients_transferred_from_paramedics_to_ed_staff_within_30_minutes__percent"
+weight = 0.25

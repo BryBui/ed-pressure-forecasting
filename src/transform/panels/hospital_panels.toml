@@ -1,0 +1,3 @@
+# Quarterly offsets for dynamic hospital BHI and mapped weather features.
+[panel]
+lags = [1, 2, 3, 4, 5, 6, 7, 8]

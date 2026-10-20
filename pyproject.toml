@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ed-pressure-ingestion"
+version = "0.1.0"
+description = "Raw data ingestion for ED pressure forecasting"
+requires-python = ">=3.10"
+dependencies = [
+    "tomli>=2; python_version < '3.11'",
+    "curl-cffi>=0.7",
+    "geopandas>=1.0",
+    "openpyxl>=3.1",
+    "tzdata>=2025.2",
+    "numpy>=2",
+    "scipy>=1.12",
+    "xgboost>=3.1,<4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"transform.bhi" = ["pressure_indices.toml"]

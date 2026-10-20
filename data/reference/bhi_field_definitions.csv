@@ -1,0 +1,17 @@
+Field,Name,Description
+Reporting period ,reporting_period,Reporting period (quarter)
+Reporting level,reporting_level,"Level of reporting (e.g. NSW, Peer group, Local health district [LHD], Hospital)"
+Entity ID,entity_id,Unique identifier of the healthcare entity
+Entity long name,entity_longname,Full name of the healthcare entity
+Entity short name,entity_shortname,Short name of the healthcare entity
+Local health district,lhd_shortname,"Name of the healthcare entity's local health district (e.g. South Western Sydney, South Eastern Sydney)"
+Peer group,peer_group_shortname,Name of the healthcare entity's peer group (e.g. Principal referral)
+Measure name,measure_name,Name of the measure
+Reporting category,reporting_category,"Breakdown of results at an overall level or by broad categories (i.e. total, MOS, triage, benchmark)"
+Reporting sub-category,subcategory,"Subcategory used for reporting and linked to the reporting category (e.g.  triage category includes T1: Resuscitation, T2: Emergency, T3: Urgent, T4: Semi-Urgent and T5: Non-Urgent)"
+Metric,metric,"Data type for a measure_value (e.g. number, percentage, minutes)"
+Measure value,measure_value,Result for the measure
+Note symbol,note_symbol,Symbol indicating context for interpreting the measure value (see note_text)
+Notes text,note_text,"Notes and context to support interpretation of results, attached to the notes symbol"
+System change note,system_change_note,Note explaining any system changes that may have impacted the results
+Additional notes,additional_notes,Additional notes and context to support interpretation of results
