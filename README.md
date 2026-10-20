@@ -37,6 +37,16 @@ Open **http://127.0.0.1:8050** to explore geographic mappings, socioeconomic
 profiles, current ED trends and forecasts. See the
 [dashboard guide](dashboard-dash-mantine/README.md) for required input files.
 
+### Dashboard preview
+
+**Data engineering**
+
+![Data engineering dashboard](https://github.com/user-attachments/assets/8ac4cef3-d724-4277-bb3a-65a7b01a0baa)
+
+**Forecasting**
+
+![Forecasting dashboard](https://github.com/user-attachments/assets/53f8a5ea-813c-453d-ad1f-2cd4618004ba)
+
 ## How the data flows
 
 ```text
